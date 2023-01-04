@@ -26,6 +26,20 @@ body {
     background-size: cover;
 }
 
+.about_card{
+    background-color: #FFDD00;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+
+.bottom_color{
+    background: red;
+    height: 32px;
+    border-radius: 34px 0px 0px 0px;
+    width: 200px;
+}
+
 .aboutusHeading {
     text-align: center;
     font-weight: 700;

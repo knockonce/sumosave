@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;1,100;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27);
 
 * {
     margin: 0;
@@ -235,7 +235,8 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 15px;
+    background-color: #FFDD00;
 }
 
 .cardy {
@@ -247,15 +248,27 @@ header {
     margin-bottom: 2%;
 }
 
+.card-text span {
+    position: relative;
+    bottom: 65px;
+    color: #fff;
+    font-weight: 500;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
+}
+
+.swiper .common-subheader {
+    margin-bottom: 5%;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
+    /* margin-right: 35px !important; */
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -279,6 +292,10 @@ header {
     object-fit: cover;
 }
 
+.category-explore {
+    margin: 3% auto 10% !important;
+}
+
 
 @media (max-width:500px) {
     .cardy .image img {
@@ -298,10 +315,10 @@ header {
     margin-top: -32px;
     background: #f1f1f1;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 74%);
-    height: 130vh;
+    height: 122vh;
 }
 
-.content {}
+
 
 .about-text {
     font-family: 'Montserrat';
@@ -313,6 +330,10 @@ header {
 
 .action-btn {
     margin-left: 0px !important;
+}
+
+.about-us-btn {
+    margin-top: 10% !important;
 }
 
 @media (max-width:390px) {
@@ -373,6 +394,7 @@ header {
     box-shadow: 0px 10px 22px 3px rgba(238, 37, 41, 0.09);
     border-radius: 15px;
     padding: 10px;
+    height: 95%;
 }
 
 .service-logo {
@@ -387,6 +409,29 @@ header {
     border-radius: 7px;
     height: 100px;
     width: 159px;
+}
+
+.service-tag {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-top: 15px !important;
+}
+
+.service-box-card {
+    color: #000;
+}
+
+.service-box-card:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.service-box:hover {
+    text-decoration: none;
+    color: #000;
+    transform: translateY(-0.4rem);
+    transition: 0.25s ease-in-out;
 }
 
 @media (max-width: 390px) {
@@ -416,17 +461,23 @@ header {
 }
 
 /* supermarket */
+/* .super {
+    margin-right: 100px;
+} */
+
 .supermarket1 {
     display: flex;
 }
 
 .market-image {
     width: 600px;
+    height: 455px;
     transform: translate(80px, 61px);
 }
 
 .market-image-2 {
     width: 600px;
+    height: 455px;
     transform: translate(22px, -18px);
 }
 
@@ -466,16 +517,28 @@ header {
 }
 
 .keypoint-services {
-    margin: 10% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0%;
 }
 
 .keypoint-services .service-icon {
     height: 100px;
     width: 110px;
+    margin-top: 2%;
+}
+
+.keypoint-services .service-logo {
+    margin-left: 6px;
+}
+
+.keypoint-services-content {
+    display: inline-block;
+    /* flex-direction: column; */
 }
 
 .keypoint-heading {
-    margin-left: 2.5rem;
     font-weight: bold;
     text-align: left;
     vertical-align: top;
@@ -485,7 +548,6 @@ header {
 }
 
 .keypoint-subheading {
-    margin-left: 2.5rem;
     font-weight: bold;
     text-align: left;
     vertical-align: top;
@@ -528,6 +590,10 @@ header {
         height: 85px;
         width: 70px;
         margin-top: 20px;
+    }
+
+    .keypoint-services .service-logo {
+        margin-left: 1px;
     }
 }
 
@@ -618,11 +684,18 @@ header {
 
 /* FOOTER SECTION START */
 
+.horizontalRule {
+    text-align: center;
+    margin: 3% auto;
+}
+
 .footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-bottom: 6%;
 }
+
 
 .logo img {
     width: 176px;

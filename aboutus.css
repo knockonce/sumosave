@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;1,100;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27);
 
 * {
     margin: 0;
@@ -51,6 +51,7 @@ body {
     text-align: center;
     margin: 3% auto;
 }
+
 /* DIVIDER */
 
 /* KEY IDENTIFIERS */
@@ -65,7 +66,7 @@ body {
 }
 
 .iden {
-    margin:0px !important;
+    margin: 0px !important;
     margin-bottom: 3% !important;
 }
 
@@ -103,9 +104,19 @@ body {
 
 /* OUR VALUES */
 
-.values-logo{
+.values-text .aboutusHeading {
+    margin-top: 10%;
+}
+
+.values-logo {
     width: 100px;
     height: 100px;
+}
+
+.sp-logo {
+    width: 45px;
+    height: 100px;
+    /* margin-bottom: 10%; */
 }
 
 .values-text .aboutusHeading {
@@ -119,19 +130,24 @@ body {
     font-weight: 700;
 }
 
-.about_card{
+.about_card {
     background-color: #FFDD00;
     width: 200px;
-    height: 425px;
-    font-size: 18px;
+    height: 625px;
+    font-size: 13px;
     margin-left: 20px;
     border-radius: 12px;
     text-align: center;
 }
 
+.about_card .p-5 {
+    padding-bottom: 15% !important;
+}
 
 .about_card h5 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    color: #EE2529;
+    font-weight: 700;
 }
 
 .about_card ul {
@@ -142,10 +158,10 @@ body {
     padding: 0px auto 10px;
 }
 
-.bottom_color{
+.bottom_color {
     position: absolute;
-    top: 1490px;
-    background: red;
+    top: 1692px;
+    background: #EE2529;
     height: 32px;
     border-radius: 34px 0px 0px 0px;
     width: 200px;
@@ -161,15 +177,30 @@ body {
         top: 34px;
     }
 }
+
 /* OUR VALUES */
 
 
 /* STORE PRESENCE */
 .info {
-    margin: 10% 0px;
+    text-align: center;
+    margin: 3% auto;
 }
 
-.hearts {
-    color: #EE2529;
+.storeList {
+    text-align: center;
 }
+
+.storeList .horizontalRule {
+    margin: 1% 0px !important;
+}
+
+.address {
+    margin: 1% 0px;
+}
+
+.address:nth-child(odd) {
+    margin-bottom: 1%;
+}
+
 /* STORE PRESENCE */

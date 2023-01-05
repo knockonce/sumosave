@@ -19,25 +19,11 @@ body {
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    background-image: url(./assets/about11.png);
+    /* background-image: url(./assets/about11.png);
     opacity: 0.1;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.about_card{
-    background-color: #FFDD00;
-    width: 200px;
-    margin-left: 20px;
-    border-radius: 12px;
-}
-
-.bottom_color{
-    background: red;
-    height: 32px;
-    border-radius: 34px 0px 0px 0px;
-    width: 200px;
+    background-size: cover; */
 }
 
 .aboutusHeading {
@@ -57,6 +43,7 @@ body {
     margin-top: 2%;
     font-size: 20px;
 }
+
 /* ABOUT US */
 
 /* DIVIDER */
@@ -116,6 +103,11 @@ body {
 
 /* OUR VALUES */
 
+.values-logo{
+    width: 100px;
+    height: 100px;
+}
+
 .values-text .aboutusHeading {
     margin-bottom: 1%;
     font-weight: 700;
@@ -125,6 +117,49 @@ body {
     text-align: center;
     color: #EE2529;
     font-weight: 700;
+}
+
+.about_card{
+    background-color: #FFDD00;
+    width: 200px;
+    height: 425px;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.about_card h5 {
+    margin-bottom: 20%;
+}
+
+.about_card ul {
+    text-align: left;
+}
+
+.about_card .flex-center {
+    padding: 0px auto 10px;
+}
+
+.bottom_color{
+    position: absolute;
+    top: 1490px;
+    background: red;
+    height: 32px;
+    border-radius: 34px 0px 0px 0px;
+    width: 200px;
+}
+
+@media (max-width:400px) {
+    .about_card {
+        margin-bottom: 10%;
+    }
+
+    .bottom_color {
+        position: relative;
+        top: 34px;
+    }
 }
 /* OUR VALUES */
 

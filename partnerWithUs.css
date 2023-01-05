@@ -221,6 +221,11 @@ option {
     display: block;
 }
 
+.btn-color {
+    background-color: #EE2529 !important;
+    color: #d8d8d8;
+}
+
 .submit-btn{
     background-color: #EE2529;
     color: #FFFFFF;

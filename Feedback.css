@@ -32,6 +32,11 @@ body {
     width: 90%;
 }
 
+.btn-color {
+    background-color: #EE2529 !important;
+    color: #d8d8d8;
+}
+
 @media (max-width: 830px) {
     .feedback-img {
         display: none;

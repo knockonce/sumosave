@@ -36,6 +36,19 @@ body {
     color: #3A3A3A;
 }
 
+.cicle-indicator {
+    /* width: 20px !important;
+    background: red !important;
+    height: 0px !important;
+    border-radius: 50px; */
+    border: 2px solid red !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #EE2529 !important;
+}
+
 .common-subheader {
     font-family: 'Montserrat';
     font-style: normal;
@@ -470,15 +483,15 @@ header {
 }
 
 .market-image {
-    width: 600px;
+    width: 559px;
     height: 455px;
-    transform: translate(80px, 61px);
+    transform: translate(21px, 61px);
 }
 
 .market-image-2 {
-    width: 600px;
+    width: 637px;
     height: 455px;
-    transform: translate(22px, -18px);
+    transform: translate(-23px, -57px);
 }
 
 .supermarket-detail-1 {
@@ -490,8 +503,10 @@ header {
 .supermarket-detail-2 {
     background: #FFDD00;
     width: 600px;
-    transform: translate(80px, 10px);
-    border-radius: 15px 15px 0px 15px;
+    height: 415px;
+    transform: translate(20px, 10px);
+    padding: 24px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .sDetails {
@@ -636,6 +651,26 @@ header {
     display: block;
     margin-left: auto;
     margin-top: 4rem;
+
+}
+
+.CTA-action-btn-cat {
+    background-color: #EE2529;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #EE2529;
+    border-radius: 8px;
+    width: 184px;
+    height: 50px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-top: 4rem;
+    position: relative;
+    top: -96px;
+    z-index: 999;
 }
 
 .CTA-action-btn2 {

@@ -47,12 +47,7 @@ body {
 /* ABOUT US */
 
 /* DIVIDER */
-.horizontalRule {
-    text-align: center;
-    margin: 3% auto;
-}
 
-/* DIVIDER */
 
 /* KEY IDENTIFIERS */
 .keys {
@@ -133,11 +128,12 @@ body {
 .about_card {
     background-color: #FFDD00;
     width: 200px;
-    height: 625px;
+    height: 662px;
     font-size: 13px;
     margin-left: 20px;
     border-radius: 12px;
     text-align: center;
+    justify-content: center;
 }
 
 .about_card .p-5 {
@@ -152,6 +148,11 @@ body {
 
 .about_card ul {
     text-align: left;
+    padding: 2%;
+}
+
+.about_card li {
+    margin-bottom: 5%;
 }
 
 .about_card .flex-center {
@@ -160,7 +161,7 @@ body {
 
 .bottom_color {
     position: absolute;
-    top: 1692px;
+    top: 1729px;
     background: #EE2529;
     height: 32px;
     border-radius: 34px 0px 0px 0px;

@@ -15,6 +15,15 @@ body {
     text-align: center;
 }
 
+.feedbacktab {
+    margin-left: 0px !important ;
+}
+
+.tablinks {
+    padding: 8px 25px !important;
+    border-radius: 5px !important;
+}
+
 .list-tabs .btn {
     padding: 8px 24px;
 }

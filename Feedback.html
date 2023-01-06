@@ -24,7 +24,7 @@
             border: 1px solid;
             outline: none;
             cursor: pointer;
-            padding: 10px 10px;
+            padding: 8px 24px;
             transition: 0.3s;
             margin-left: 15px;
             border-radius: 10px;
@@ -48,7 +48,6 @@
         .tabcontent {
             display: none;
             padding: 6px 12px;
-            border: 1px solid #ccc;
             border-top: none;
         }
     </style>
@@ -101,7 +100,7 @@
     <div class="container">
         <div class="tabs">
             <div class="tab">
-                <button class="tablinks active" onclick="openCity(event, 'Customers')">Customers</button>
+                <button class="tablinks feedbackTab active" onclick="openCity(event, 'Customers')" style="margin-left: 0;">Customers</button>
                 <button class="tablinks" onclick="openCity(event, 'Employees')">Employees</button>
                 <button class="tablinks" onclick="openCity(event, 'Media')">Media / Others</button>
             </div>
@@ -137,7 +136,7 @@
                         </div>
                         <div class="field-div">
                             <label class="form-fields">Store name</label>
-                            <input type="text" name="stroreName" id="" placeholder="Gujarat">
+                            <input type="text" name="stroreName" id="" placeholder="Kolkata">
                         </div>
                         <div class="field-div">
                             <label class="form-fields">Feedback</label>

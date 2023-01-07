@@ -152,7 +152,7 @@ header {
 }
 
 .yellow-box {
-    background-color: #FFDD00;
+    /* background-color: #FFDD00; */
     height: 450px;
     width: 500px;
     text-align: center;
@@ -182,13 +182,33 @@ header {
 
 /* For Type-1 */
 
-@media (max-width:1000px) {
-    .row {
-        margin: 5% 0;
+@media (min-width:200px) and (max-width:600px) {
+
+    .common-subheader {
+        font-weight: 600;
     }
 
-    .desc {
+    .yellow-box {
+        background-color: #FFFFFF !important;
         margin: 0px auto;
+        margin-bottom: 20%;
+        height: 325px;
+        width: 325px;
+        text-align: center;
+    }
+
+    .yellow-box p {
+        background-color: #FFDD00;
+        --container-width: 100%;
+        width: var(--container-width);
+        height: 350px;
+        padding: calc(var(--container-width) * 0.05) !important;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .row {
+        margin: 5% 0;
     }
 
     .subheading-section {
@@ -198,10 +218,22 @@ header {
         text-align: center;
     }
 
-    .category {
-        font-size: 38px;
-        line-height: 46px;
+    .category,
+    .reverse-heading {
         transform: rotate(0deg);
+    }
+
+    .reverse-image img {
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        width: 220px;
+        height: 220px;
+        position: initial;
+        margin: 5% auto;
+    }
+
+    .reverse-image {
+        text-align: center;
     }
 
     .subimg-section {
@@ -215,21 +247,30 @@ header {
         width: 220px;
         height: 220px;
         position: initial;
+        margin: 0 auto;
+        margin-bottom: -15%;
     }
-
-    .yellow-box {
-        background-color: #FFDD00;
-        height: 325px;
-        width: 325px;
-        text-align: center;
-    }
-
 
     .yellow-box p {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 12.5% 10%;
+    }
+
+    .reverse-image img {
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        width: 220px;
+        height: 220px;
+        position: initial;
+        margin: 5% auto;
+        margin-bottom: -15%;
+    }
+
+    .reverse-image {
+        text-align: center;
+        margin-top: ;
     }
 }
 
@@ -292,26 +333,6 @@ header {
 
 /* For Type-2 */
 
-
-@media (max-width:1000px) {
-
-    .reverse-heading {
-        transform: rotate(0deg);
-    }
-
-    .reverse-image img {
-        background-color: #FFFFFF;
-        border-radius: 25px;
-        width: 220px;
-        height: 220px;
-        position: initial;
-        margin: 5% auto;
-    }
-
-    .reverse-image {
-        text-align: center;
-    }
-}
 
 /* CATEGORY SECTION END */
 

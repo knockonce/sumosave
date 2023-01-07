@@ -118,6 +118,13 @@ header {
     height: 51px;
     margin: 70px auto;
 }
+
+@media (min-width:200px) and (max-width: 400px) {
+    .page-text h2 {
+        margin: 0px 3%;
+    }
+}
+
 /* PAGE TEXT CSS ENDS */
 
 
@@ -160,7 +167,7 @@ header {
     line-height: 27px;
 }
 
-.desc-suppliers a , 
+.desc-suppliers a,
 .desc-landlords a {
     color: #EE2529;
 }
@@ -232,7 +239,7 @@ option {
     color: #fff !important;
 }
 
-.submit-btn{
+.submit-btn {
     background-color: #EE2529;
     color: #FFFFFF;
     font-family: 'Montserrat';
@@ -256,11 +263,19 @@ option {
 
 /* FOOTER SECTION START */
 
+.horizontalRule {
+    text-align: center;
+    margin: 3% auto;
+    margin-top: 0px;
+}
+
 .footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-bottom: 6%;
 }
+
 
 .logo img {
     width: 176px;
@@ -283,12 +298,26 @@ option {
     margin-bottom: 18px;
 }
 
+.footer-link a {
+    cursor: pointer;
+    color: #3A3A3A;
+}
+
 .footer .col-md-4 ul {
     list-style: none;
 }
 
+.social-fa-icon {
+    color: #EE2529;
+
+}
+
 .social-icon {
     margin-right: 30px;
+}
+
+.social-icon:hover {
+    text-decoration: none;
 }
 
 .social-icon:last-child {
@@ -311,18 +340,3 @@ option {
 }
 
 /* FOOTER SECTION END */
-
-.legal {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 2%;
-}
-
-@media (max-width:1000px) {
-    .legal {
-        display: initial;
-        width: 65%;
-        margin: 0px auto;
-        text-align: center;
-    }
-}

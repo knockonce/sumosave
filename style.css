@@ -365,7 +365,7 @@ header {
     margin-top: 10% !important;
 }
 
-@media (min-width:300px) and (max-width:1000px) {
+@media (min-width:200px) and (max-width:1000px) {
     #about {
         background: #f1f1f1;
         clip-path: none;
@@ -376,7 +376,7 @@ header {
     }
 }
 
-@media (min-width:300px) and (max-width:415px) {
+@media (min-width:200px) and (max-width:415px) {
     .content {
         padding: 20px;
         /* padding-bottom: 20px; */
@@ -525,7 +525,21 @@ header {
     transition: 0.25s ease-in-out;
 }
 
-@media (min-width: 300px) and (max-width:600px) {
+@media (min-width:300px) and (max-width:400px) {
+    .service-icon {
+        width: 50% !important;
+    }
+
+    .service-logo {
+        transform: translate(6px, 21px) !important;
+    }
+
+    .sp-service-icon {
+        width: 60% !important;
+    }
+}
+
+@media (min-width: 200px) and (max-width:600px) {
     .service-box {
         border: 1px solid #000;
         width: 100%;
@@ -537,10 +551,14 @@ header {
         width: 44%;
     }
 
+    .sp-service-icon {
+        width: 53%;
+    }
+
     .service-logo {
         width: 50px;
         height: 50px;
-        transform: translate(15px, 20px);
+        transform: translate(21px, 21px) !important;
     }
 }
 
@@ -654,19 +672,12 @@ header {
     margin: 5% 0%;
 }
 
-/* .keypoint-services .service-icon {
-    height: 100px;
-    width: 110px;
-    margin-top: 2%;
-} */
-
 .keypoint-services .service-logo {
     margin-left: 6px;
 }
 
 .keypoint-services-content {
     display: inline-block;
-    /* flex-direction: column; */
 }
 
 .keypoint-heading {
@@ -687,7 +698,11 @@ header {
     font-size: 22px;
 }
 
-@media (min-width:30px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:600px) {
+
+    .keypoint-services .service-logo {
+        margin-left: -3px;
+    }
 
     .keypoint-lady {
         margin-bottom: 10%;
@@ -761,6 +776,7 @@ header {
 }
 
 .CTA-action-btn2 {
+    background-color: #f1f1f1 !important;
     color: #EE2529;
     font-family: 'Montserrat';
     font-size: 18px;
@@ -774,7 +790,7 @@ header {
     margin-top: 4rem;
 }
 
-@media (min-width:300px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:600px) {
     .CTA {
         height: 380px;
         background-image: none;

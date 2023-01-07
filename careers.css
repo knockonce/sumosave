@@ -13,3 +13,13 @@
 .message:hover {
     color: #EE2529;
 }
+
+@media (min-width:200px) and (max-width:600px) {
+    .careerLetter img {
+        width: 100%;
+    }
+
+    .page-text {
+        margin-bottom: 3%;
+    }
+}

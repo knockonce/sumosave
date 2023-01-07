@@ -112,7 +112,6 @@ body {
 .sp-logo {
     width: 45px;
     height: 100px;
-    /* margin-bottom: 10%; */
 }
 
 .values-text .aboutusHeading {
@@ -169,9 +168,21 @@ body {
     width: 200px;
 }
 
-@media (max-width:400px) {
+@media (min-width:200px) and (max-width:600px) {
+
+    .bottom_color {
+        display: none;
+    }
+
     .about_card {
+        width: 100%;
+        margin: 0px 12%;
         margin-bottom: 10%;
+        height: 100%;
+    }
+
+    .about_card h5 {
+        margin-bottom: 0;
     }
 
     .bottom_color {
@@ -203,6 +214,17 @@ body {
 
 .address:nth-child(odd) {
     margin-bottom: 1%;
+}
+
+@media (min-width:200px) and (max-width:600px) {
+    .store-presence h2 {
+        margin-bottom: 5% !important;
+    }
+
+    .storeList p {
+        text-align: left;
+        margin-bottom: 3% !important;
+    }
 }
 
 /* STORE PRESENCE */

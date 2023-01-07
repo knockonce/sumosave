@@ -318,7 +318,7 @@ header {
 }
 
 
-@media (max-width:420px) {
+@media (max-width:600px) {
     .cardy .image img {
         width: 100%;
         height: 100%;
@@ -365,7 +365,7 @@ header {
     margin-top: 10% !important;
 }
 
-@media (min-width:300px) and (max-width:415px) {
+@media (min-width:300px) and (max-width:1000px) {
     #about {
         background: #f1f1f1;
         clip-path: none;
@@ -374,7 +374,9 @@ header {
         margin: 10% 5%;
         padding: 5% 0px;
     }
+}
 
+@media (min-width:300px) and (max-width:415px) {
     .content {
         padding: 20px;
         /* padding-bottom: 20px; */
@@ -411,12 +413,12 @@ header {
         align-items: center;
         justify-content: center;
         width: 80%;
+        margin: 0px auto;
     }
 
     .cart-img img {
         width: 150%;
         padding-bottom: 2%;
-        margin-right: 8%;
         margin-top: 0rem !important;
     }
 
@@ -427,16 +429,49 @@ header {
     }
 }
 
-@media (min-width:300px) and (max-width:375px) {
+@media (min-width:601px) and (max-width:1000px) {
+    #about {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .common-header {
+        margin-top: 0px;
+    }
+
+    .cart-img {
+        margin: 0px -2%;
+    }
+
+    .cart-img img {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .content,
     .about-text {
-        width: 24ch;
+        margin-top: 0 !important;
+    }
+
+    .about-text {
+        margin-top: 5% !important;
+        margin-left: 3.5%;
+        width: 50ch;
+        text-align: center;
+    }
+
+    .about-us-btn {
+        margin: 0px auto !important;
+        margin-top: 6% !important;
     }
 }
+
+
 
 /* services */
 
 .service-container {
-    margin-top: 20% !important;
+    margin-top: 20%;
 }
 
 .service-box {
@@ -490,7 +525,7 @@ header {
     transition: 0.25s ease-in-out;
 }
 
-@media (min-width: 300px) and (max-width:420px) {
+@media (min-width: 300px) and (max-width:600px) {
     .service-box {
         border: 1px solid #000;
         width: 100%;
@@ -506,6 +541,27 @@ header {
         width: 50px;
         height: 50px;
         transform: translate(15px, 20px);
+    }
+}
+
+@media (min-width:601px) and (max-width:1000px) {
+    .service-container {
+        margin-top: 10% !important;
+    }
+
+    .service-icon {
+        width: 100px;
+        margin: 2% 0px;
+    }
+
+    .sp-service-icon {
+        width: 117.2px !important;
+        margin: 0px !important;
+
+    }
+
+    .service-logo {
+        transform: translate(25.5px, 27px);
     }
 }
 
@@ -551,7 +607,7 @@ header {
     margin-left: 17px;
 }
 
-@media (max-width:420px) {
+@media (max-width:600px) {
 
     .supermarket-detail-1,
     .supermarket-detail-2 {
@@ -631,8 +687,8 @@ header {
     font-size: 22px;
 }
 
-@media (min-width:30px) and (max-width:420px) {
-    
+@media (min-width:30px) and (max-width:600px) {
+
     .keypoint-lady {
         margin-bottom: 10%;
     }
@@ -718,7 +774,7 @@ header {
     margin-top: 4rem;
 }
 
-@media (min-width:300px) and (max-width:420px){
+@media (min-width:300px) and (max-width:600px) {
     .CTA {
         height: 380px;
         background-image: none;
@@ -747,7 +803,7 @@ header {
     }
 
     .horizontalRule {
-        margin-bottom:10% !important;
+        margin-bottom: 10% !important;
     }
 
     .CTA .container {

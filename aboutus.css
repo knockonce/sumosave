@@ -37,10 +37,11 @@ body {
 }
 
 .aboutus p {
-    width: 75%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     margin: 0px auto;
     margin-top: 2%;
+    padding: 5%;
     font-size: 20px;
 }
 

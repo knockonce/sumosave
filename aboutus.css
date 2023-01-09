@@ -199,9 +199,12 @@ body {
         margin-bottom: 0;
     }
 
-    .bottom_color {
-        position: relative;
-        top: 34px;
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .about_card {
+        margin: 0px auto;
+        margin-bottom:5%;
     }
 }
 

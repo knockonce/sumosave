@@ -172,6 +172,15 @@ header {
     color: #EE2529;
 }
 
+@media (min-width:641px) and (max-width:1000px) {
+    #suppliers .col-md-4 ,#landlords .col-md-4 {
+        text-align: center;
+    }
+    #suppliers img,#landlords img {
+        margin-top: 5%;
+    }
+}
+
 .form-fields {
     font-family: Montserrat;
     font-size: 14px;

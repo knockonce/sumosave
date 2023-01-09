@@ -182,7 +182,7 @@ header {
 
 /* For Type-1 */
 
-@media (min-width:200px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:999px) {
 
     .common-subheader {
         font-weight: 600;
@@ -220,6 +220,7 @@ header {
 
     .category,
     .reverse-heading {
+        font-size: 35px;
         transform: rotate(0deg);
     }
 
@@ -234,6 +235,7 @@ header {
 
     .reverse-image {
         text-align: center;
+        margin-bottom: 5%;
     }
 
     .subimg-section {
@@ -270,7 +272,6 @@ header {
 
     .reverse-image {
         text-align: center;
-        margin-top: ;
     }
 }
 

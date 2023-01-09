@@ -37,13 +37,20 @@ body {
 }
 
 .aboutus p {
-    width: 100%;
+    width: 90%;
     text-align: center;
-    margin: 0px auto;
-    margin-top: 2%;
-    padding: 5%;
+    margin: 0px auto;    
+    padding: 1.5%;
     font-size: 20px;
 }
+
+@media (min-width:641px) and (max-width:1000px) {
+    .aboutus p {
+        padding: 2.5%;
+        margin-top: 0;
+    }
+}
+
 
 /* ABOUT US */
 
@@ -90,9 +97,15 @@ body {
     background-color: #FFDD00;
 }
 
-@media (max-width:500px) {
+@media (max-width:640px) {
     .identifier {
         margin-bottom: 10%;
+    }
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .identifier {
+        margin-bottom: 7%;
     }
 }
 
@@ -126,6 +139,7 @@ body {
 }
 
 .about_card {
+    position: relative;
     background-color: #FFDD00;
     width: 200px;
     height: 662px;
@@ -161,14 +175,14 @@ body {
 
 .bottom_color {
     position: absolute;
-    top: 1728px;
+    bottom: 0;
     background: #EE2529;
-    height: 32px;
-    border-radius: 34px 0px 0px 0px;
-    width: 200px;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px 0px 0px 0px;
 }
 
-@media (min-width:200px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:640px) {
 
     .bottom_color {
         display: none;
@@ -216,7 +230,7 @@ body {
     margin-bottom: 1%;
 }
 
-@media (min-width:200px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:641px) {
     .store-presence h2 {
         margin-bottom: 5% !important;
     }

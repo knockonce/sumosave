@@ -44,7 +44,7 @@ body {
     border: 2px solid red !important;
 }
 
-@media (min-width:300px) and (max-width:415px) {
+@media (min-width:300px) and (max-width:1000px) {
 
     ol {
         margin-bottom: 0 !important;
@@ -54,6 +54,12 @@ body {
         position: relative;
         top: 12px;
         margin-right: 3px;
+    }
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .swiper {
+        margin-top: 10%;
     }
 }
 
@@ -130,7 +136,7 @@ header {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32,48,117, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-@media (min-width:300px) and (max-width: 415px) {
+@media (min-width:200px) and (max-width: 640px) {
     .navbar-brand {
         text-align: left;
         margin-left: 2%;
@@ -189,10 +195,6 @@ header {
 
 }
 
-.desktop-view {
-    display: initial;
-}
-
 .desktop-hero-section {
     background-image: url("./assets/banner_img.png");
     height: 75vh;
@@ -203,12 +205,26 @@ header {
     transform: translate(100px, 160px);
 }
 
-@media (min-width:500px) {
+ @media (min-width:200px) and (max-width:1000px) {
     .small {
+        display: initial !important;
+    }
+    .desktop-view {
         display: none !important;
     }
 }
 
+@media (min-width:1001px) {
+    .desktop-view {
+        display: initial;
+    }
+
+    .small {
+        display:none !important;
+    }
+}
+
+/*
 @media (max-width: 500px) {
 
     .hero-content {
@@ -236,7 +252,7 @@ header {
     .desktop-view {
         display: none !important;
     }
-}
+} */
 
 /* CATEGORIES UPDATED CSS */
 .categories {
@@ -318,7 +334,7 @@ header {
 }
 
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     .cardy .image img {
         width: 100%;
         height: 100%;
@@ -335,6 +351,12 @@ header {
 
     .cardy {
         margin-bottom: 10%;
+    }
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .category-explore {
+        margin-top: 7% !important;
     }
 }
 
@@ -376,7 +398,7 @@ header {
     }
 }
 
-@media (min-width:200px) and (max-width:415px) {
+@media (min-width:200px) and (max-width:640px) {
     .content {
         padding: 20px;
         /* padding-bottom: 20px; */
@@ -429,7 +451,7 @@ header {
     }
 }
 
-@media (min-width:601px) and (max-width:1000px) {
+@media (min-width:641px) and (max-width:1000px) {
     #about {
         text-align: center;
         margin-bottom: 0px;
@@ -539,7 +561,7 @@ header {
     }
 }
 
-@media (min-width: 200px) and (max-width:600px) {
+@media (min-width: 200px) and (max-width:640px) {
     .service-box {
         border: 1px solid #000;
         width: 100%;
@@ -562,7 +584,7 @@ header {
     }
 }
 
-@media (min-width:601px) and (max-width:1000px) {
+@media (min-width:641px) and (max-width:1000px) {
     .service-container {
         margin-top: 10% !important;
     }
@@ -579,7 +601,15 @@ header {
     }
 
     .service-logo {
-        transform: translate(25.5px, 27px);
+        transform: translate(14px, 20px);
+    }
+
+    .service-container .service-logo {
+        transform: translate(26px, 24px);
+    }
+
+    .service-container .col-md-4 {
+        margin-bottom: 3%;
     }
 }
 
@@ -625,7 +655,7 @@ header {
     margin-left: 17px;
 }
 
-@media (max-width:600px) {
+@media (max-width:640px) {
 
     .supermarket-detail-1,
     .supermarket-detail-2 {
@@ -655,6 +685,42 @@ header {
 
     .supermarket {
         margin-bottom: 10%;
+    }
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .supermarket {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .supermarket1 {
+        display: initial;
+    }
+
+    .supermarket-detail-1,
+    .supermarket-detail-2 {
+        border-radius: 15px;
+        width: 85%;
+        transform: translate(0);
+        margin-top: 5%;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    .sDetails {
+        padding: 15px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .supermarket-detail-2 {
+        display: none;
+    }
+
+    .supermarket1 img {
+        transform: translate(0px, 0px);
+        width: 100%;
     }
 }
 
@@ -698,7 +764,7 @@ header {
     font-size: 22px;
 }
 
-@media (min-width:200px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:640px) {
 
     .keypoint-services .service-logo {
         margin-left: -3px;
@@ -790,7 +856,7 @@ header {
     margin-top: 4rem;
 }
 
-@media (min-width:200px) and (max-width:600px) {
+@media (min-width:200px) and (max-width:640px) {
     .CTA {
         height: 380px;
         background-image: none;
@@ -828,6 +894,17 @@ header {
 
     .CTA .second-container {
         padding-top: 3%;
+    }
+}
+
+@media (min-width:641px) and (max-width:1000px) {
+    .CTA {
+        height: 100%;
+        margin-top: 3%;
+    }
+
+    .CTA-action-btn1,.CTA-action-btn2 {
+        margin: 4% auto;
     }
 }
 

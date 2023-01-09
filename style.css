@@ -506,8 +506,13 @@ header {
 }
 
 .service-logo {
-    transform: translate(15px, 15px);
-    width: 50px;
+    /* transform: translate(15px, 15px);
+    width: 50px; */
+    transform: translate(78%, 88%);
+}
+
+.service-logo-grocery{
+    transform: translate(44%, 35%);
 }
 
 .service-icon {
@@ -516,7 +521,7 @@ header {
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 5px;
     height: 100px;
-    width: 132px;
+    min-width: 100px;
     margin: auto 0px;
 }
 
@@ -580,7 +585,7 @@ header {
     .service-logo {
         width: 50px;
         height: 50px;
-        transform: translate(21px, 21px) !important;
+        transform: translate(29px, 21px) !important;
     }
 }
 
@@ -738,7 +743,7 @@ header {
     margin: 5% 0%;
 }
 
-.keypoint-services .service-logo {
+.keypoint-services .service-logo-grocery {
     margin-left: 6px;
 }
 
@@ -817,9 +822,7 @@ header {
     height: 50px;
     text-transform: uppercase;
     display: block;
-    margin-left: auto;
     margin-top: 4rem;
-
 }
 
 .CTA-action-btn-cat {

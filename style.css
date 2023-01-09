@@ -68,6 +68,20 @@ body {
     color: #EE2529 !important;
 }
 
+@media (min-width:1024px) {
+    .swiper-button-next::after {
+        margin-left: 90px;
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+
+    .swiper-button-prev::after {
+        margin-right: 90px;
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+}
+
 .common-subheader {
     font-family: 'Montserrat';
     font-style: normal;
@@ -205,10 +219,11 @@ header {
     transform: translate(100px, 160px);
 }
 
- @media (min-width:200px) and (max-width:1000px) {
+@media (min-width:200px) and (max-width:1000px) {
     .small {
         display: initial !important;
     }
+
     .desktop-view {
         display: none !important;
     }
@@ -220,7 +235,7 @@ header {
     }
 
     .small {
-        display:none !important;
+        display: none !important;
     }
 }
 
@@ -511,7 +526,7 @@ header {
     transform: translate(78%, 88%);
 }
 
-.service-logo-grocery{
+.service-logo-grocery {
     transform: translate(44%, 35%);
 }
 
@@ -906,7 +921,8 @@ header {
         margin-top: 3%;
     }
 
-    .CTA-action-btn1,.CTA-action-btn2 {
+    .CTA-action-btn1,
+    .CTA-action-btn2 {
         margin: 4% auto;
     }
 }

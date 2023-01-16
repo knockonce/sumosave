@@ -172,6 +172,12 @@ header {
     color: #EE2529;
 }
 
+@media (max-width:1023px) {
+    #suppliers img {
+        display: none;
+    }
+}
+
 @media (min-width:641px) and (max-width:1000px) {
     #suppliers .col-md-4 ,#landlords .col-md-4 {
         text-align: center;
@@ -200,7 +206,7 @@ input {
 
 .form-1,
 .form-2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 7rem;
 }
 
@@ -259,8 +265,6 @@ option {
     width: 184px;
     height: 50px;
     text-transform: uppercase;
-    display: block;
-    margin-left: auto;
     margin-top: 4rem;
 }
 

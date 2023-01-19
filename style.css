@@ -868,12 +868,13 @@ header {
 .social-icon {
     margin-right: 30px;
     color: #EE2529;
-    font-size: 40px;
+    color: linear-gradient();
+    font-size: 20px;
 }
 
 .social-icon:hover {
     text-decoration: none;
-    color: #e06365;
+    color: #FFDD00;
 }
 
 .social-icon:last-child {

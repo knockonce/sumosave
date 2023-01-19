@@ -28,6 +28,7 @@ body {
     font-size: 42px;
     line-height: 51px;
     color: #3A3A3A;
+    margin-bottom: 10%;
 }
 
 .common-subheader {
@@ -115,7 +116,7 @@ header {
 }
 
 /* CATEGORY SECTION */
-
+/* 
 .row {
     margin: 10% 0;
 }
@@ -180,7 +181,7 @@ header {
 }
 
 
-/* For Type-1 */
+/* For Type-1 
 
 @media (min-width:200px) and (max-width:999px) {
 
@@ -330,12 +331,47 @@ header {
         text-align: center;
     }
 
-}
+} */
 
 /* For Type-2 */
 
 
 /* CATEGORY SECTION END */
+
+/* CATEGORIES FRESH LOOK */
+.col-md-9 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0px 4px 25px 1px #0000001A;
+}
+.col-md-6 img {
+    max-width: 100%;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+    height: auto;
+
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0px 4px 25px 1px #0000001A;
+}
+
+.text-box {
+    /* background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%); */
+    /* box-shadow: 0px 4px 25px 1px #0000001A; */
+    padding: 3%;
+    /* background-color: rgb(58, 58, 58,0.1); */
+}
+
+@media(max-width:1023px) {
+    .text-box {
+        padding: 7%;
+        padding-top:0 ;
+    }
+}
+
+/* CATEGORIES FRESH LOOK */
 
 
 /* FOOTER SECTION START */

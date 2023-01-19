@@ -449,6 +449,23 @@ header {
     }
 }
 
+.category-text{
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.8;
+    padding: 8px;
+    position: absolute;
+    left: 0px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b39d0e;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    bottom: -17px;
+}
+
 
 .img_section{
     width: 50%;

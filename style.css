@@ -675,6 +675,9 @@ header {
 } */
 
 /* keypoint section */
+.keypoint-container {
+    margin-top: 5%;
+}
 
 .keypoint-lady {
     width: 100%;
@@ -867,18 +870,24 @@ header {
 
 .social-icon {
     margin-right: 30px;
-    color: #EE2529;
-    color: linear-gradient();
-    font-size: 20px;
+    background-color: #EE2529;
+    clip-path: circle();
+    /* font-size: 100px; */
 }
 
 .social-icon:hover {
     text-decoration: none;
-    color: #FFDD00;
+    background-color: #FFDD00;
 }
 
 .social-icon:last-child {
     margin-right: 0px;
+}
+
+.social-icon i {
+    color: #fff;    
+    /* width: 100px; */
+    z-index: 1;
 }
 
 @media (max-width:1000px) {

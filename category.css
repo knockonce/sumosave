@@ -463,9 +463,11 @@ header {
     background-color: #d61b15;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    bottom: -17px;
 }
 
+.card {
+    border-radius: 8px;
+}
 
 .img_section{
     width: 50%;

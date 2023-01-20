@@ -14,6 +14,10 @@
   <link rel="icon" href="assets\logo-header.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <script src="https://kit.fontawesome.com/8c3072366d.js" crossorigin="anonymous"></script>
+
+  <!-- ANIMATION EFFECT -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <title>sumo save</title>
 </head>
 
@@ -54,7 +58,6 @@
 
 
   <!-- hero section -->
-
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li class="cicle-indicator" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,7 +99,8 @@
 
 
   <!-- about suosave -->
-  <section id="about-section" class="about">
+
+  <section id="about-section" data-aos="fade-up" data-aos-duration="1000" class="about">
     <div class="container">
       <div class="row">
         <div class="col-md-6 cart-img">
@@ -105,7 +109,8 @@
         <div class="col-md-6 content">
           <h2 class="common-header">About SUMOSAVE</h2>
           <!-- <h5 class="common-subheader">INDIA'S leading GROCERY Supermarket</h5> -->
-          <p class="about-text mt-4">Sumosave is a large neighborhood supermarket which offers a relevant range of food
+          <p class="about-text mt-4">Sumosave is a large neighborhood supermarket which offers a relevant range of
+            food
             &
             grocery and home needs products to its customers. Our stores carry daily use products
             in categories such as staples, packaged grocery, personal care, home care, beverages,
@@ -121,10 +126,11 @@
       </div>
     </div>
   </section>
+
   <!-- about suosave end -->
 
   <!-- services -->
-  <div class="container common-top-margin service-container">
+  <div data-aos="zoom-in-up" data-aos-duration="1000" class="container common-top-margin service-container">
     <h2 class="common-header text-center mb-5">Categories to Offer</h2>
     <!-- <h5 class="common-subheader text-center">INDIA'S leading GROCERY Supermarket</h5> -->
     <div class="row mt-5">
@@ -174,7 +180,8 @@
 
   <!-- categories -->
 
-  <div class="container common-top-margin">
+  <div class="container common-top-margin" data-aos="zoom-out-up" data-aos-easing="ease-in-back"
+    data-aos-duration="1500">
     <div class="swiper mySwiper">
       <h2 class="common-header text-center mb-5">Categories to Offer</h2>
       <!-- <h5 class="common-subheader text-center">INDIA'S leading GROCERY Supermarket</h5> -->
@@ -183,7 +190,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/spices.png" alt="">
+                <img src="./assets/home/spices.png" alt="spices">
               </div>
             </div>
 
@@ -196,7 +203,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/spreads.png" alt="">
+                <img src="./assets/home/spreads.png" alt="spreads">
               </div>
             </div>
 
@@ -209,7 +216,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/category/new/Category 9.png" alt="">
+                <img src="./assets/home/softDrinks.png" alt="Beverages">
               </div>
             </div>
 
@@ -222,7 +229,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/milk&bread.png" alt="">
+                <img src="./assets/home/milk&bread.png" alt="Bakery dairy and frozen">
               </div>
             </div>
 
@@ -287,7 +294,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/buckets.png" alt="">
+                <img src="./assets/home/buckets.png" alt="Houseware">
               </div>
             </div>
 
@@ -300,7 +307,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/category/Category1.png" alt="">
+                <img src="./assets/home/luggage-u.png" alt="luggage">
               </div>
             </div>
 
@@ -313,7 +320,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/toys.png" alt="">
+                <img src="./assets/home/toys.png" alt="Toys and Stationery">
               </div>
             </div>
 
@@ -326,7 +333,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/home/curtlery.png" alt="">
+                <img src="./assets/home/curtlery.png" alt="Accessories">
               </div>
             </div>
 
@@ -339,7 +346,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/category/new/Category 5.png" alt="">
+                <img src="./assets/home/clothes.png" alt="Linen">
               </div>
             </div>
 
@@ -352,7 +359,7 @@
           <div class="cardy">
             <div class="card-content">
               <div class="image">
-                <img src="./assets/category/new/Category 1.png" alt="">
+                <img src="./assets/home/electronics.png" alt="Electrical">
               </div>
             </div>
 
@@ -451,13 +458,13 @@
   <!-- supermarket end-->
 
   <!-- keypoit section -->
-  <div class="container keypoint-container">
+  <div class="container keypoint-container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100">
     <div class="row d-flex justify-center align-items-center">
       <div class="col-md-6">
         <img src="./assets/women1.png" class="keypoint-lady" />
       </div>
       <div class="col-md-6">
-        <div class="keypoint-services-content">
+        <div class="keypoint-services-content mt-5 d-flex align-items-center justify-content-center">
           <h2 class="keypoint-heading">Why should you choose Sumosave?</h2>
           <!-- <h3 class="keypoint-subheading">INDIA'S leading GROCERY Supermarket</h3> -->
         </div>
@@ -581,12 +588,18 @@
           <!-- Expecting Toll Free Number -->
           <!-- <li class="footer-link">+91 12345 98765</li> -->
         </ul>
+
+        <!-- <a href="https://www.facebook.com/sumosave.retail/" target="_blank">
+          <div class="social-icon d-flex">
+            <i class="fa-brands fa-facebook-f" style="text-align: center;"></i>
+          </div>
+        </a> -->
+
         <a class="social-icon" href="https://www.facebook.com/sumosave.retail/" target="_blank">
-          <!-- <i class="bi bi-facebook"></i> -->
           <i class="fa-brands fa-facebook-f"></i>
         </a>
+
         <a class="social-icon" href="https://www.linkedin.com/company/sumosave-retail-venture-pvt-ltd/" target="_blank">
-          <!-- <i class="bi bi-linkedin"></i> -->
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
@@ -647,6 +660,11 @@
     });
   </script>
 
+  <!-- ANIMATION EFFECT JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
